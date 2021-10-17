@@ -532,9 +532,9 @@ def ga_tru(evaluation, pts, start_pop, mutation_rate):
 
 
 
-    def main():
-    	ga_m_res = ga_m(num_evolution, points, num_population)
+def main():
+	ga_m_res = ga_m(num_evolution, points, num_population)
 
 
-    if __name__ == "__main__":
-    	main()
+if __name__ == "__main__":
+	main()
